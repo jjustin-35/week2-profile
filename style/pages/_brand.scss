@@ -1,0 +1,33 @@
+.myBrand{
+    background-color: black;
+    text-align: center;
+    h2, p{
+        color: white;
+    }
+    h2{
+        margin-bottom: 12px;
+    }
+}
+
+.brandContent__text1{
+    margin-bottom: 32px;
+}
+.brandContent__text2{
+    margin: 0 auto;
+    margin-bottom: 68px;
+}
+.photos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+.photos__pic{
+    &:first-child{
+        margin-bottom: 40px;
+    }
+    &:nth-child(2){
+        margin-right: 24px;
+    }
+}
+
